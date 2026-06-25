@@ -87,7 +87,45 @@ Il MVP è completo quando:
 
 ---
 
-## 8. 📣 PROMPT INIZIALE PER L'AI TOOL
+## 8. 📐 SPEC TECNICHE (Spec Driven Development)
+> Prima di toccare Lovable, genera questa documentazione tecnica strutturata.
+> Puoi usare un'AI (Claude, Gemini, ecc.) con il prompt qui sotto per compilarla.
+
+**Prompt da usare per generare le spec:**
+```
+Il mio obiettivo è sviluppare [IDEA IN UNA FRASE] utilizzando Lovable per il frontend 
+e il sistema backend integrato di Lovable. Aiutami a scrivere la documentazione tecnica 
+completa che mi servirà come linea guida strutturata per generare l'app.
+Struttura la risposta in queste tre sezioni:
+
+1. Requisiti di Prodotto: elenca le funzionalità base. Chiedimi conferma prima di passare 
+alla fase tecnica.
+
+2. Architettura Backend: struttura del database con tabelle, campi e relazioni (Foreign Keys).
+
+3. Architettura Frontend: alberatura dei componenti principali e gestione dello stato.
+```
+
+**Una volta generate, incolla qui le spec:**
+
+### 8a. Requisiti di Prodotto
+```
+[Incolla qui i requisiti generati]
+```
+
+### 8b. Architettura Backend
+```
+[Incolla qui la struttura del database]
+```
+
+### 8c. Architettura Frontend
+```
+[Incolla qui l'alberatura dei componenti]
+```
+
+---
+
+## 9. 📣 PROMPT INIZIALE PER L'AI TOOL
 > Copia e incolla questo prompt nel tuo tool preferito per iniziare.
 > Compilalo con le info delle sezioni precedenti.
 
@@ -114,7 +152,7 @@ Keep it simple. No over-engineering. Focus on validating the idea fast.
 
 ---
 
-## 📝 NOTE & DECISIONI
+## 10. 📝 NOTE & DECISIONI
 > Tieni traccia delle scelte importanti che fai durante lo sviluppo.
 
 | Data | Decisione | Motivo |
